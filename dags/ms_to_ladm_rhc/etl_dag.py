@@ -81,6 +81,7 @@ with DAG(
         tasks_etl_ms_to_ladm["diligenciar_relacion_entre_unidad_administrativa_y_espacial"] >>
         tasks_etl_ms_to_ladm["crear_estructura_col_area_valor"] >>
         tasks_etl_ms_to_ladm["crear_agrupacion_interesados"] >>
+        tasks_etl_ms_to_ladm["crear_derechos"] >>
         tasks_etl_ms_to_ladm["crear_responsabilidades"] >>
         tasks_etl_ms_to_ladm["diligenciar_relacion_col_rrrfuente"] >>
 

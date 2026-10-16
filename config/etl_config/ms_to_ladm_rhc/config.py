@@ -55,6 +55,10 @@ ETL_TASKS = [
         "ms_to_ladm_rhc/sql/070_crear_agrupacion_interesados.sql",
     ),
     (
+        "crear_derechos",
+        "ms_to_ladm_rhc/sql/075_crear_derechos.sql",
+    ),
+    (
         "crear_responsabilidades",
         "ms_to_ladm_rhc/sql/080_crear_responsabilidades.sql",
     ),
