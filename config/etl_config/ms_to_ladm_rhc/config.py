@@ -1,5 +1,4 @@
 # ETL INFO
-DAG_NAME = 'ms_to_ladm_rhc_dag'
 DAG_DESCRIPTION = 'ETL que transforma los datos del modelo simplificado al modelo extendido LADM_COL del OTL de rondas hídricas acotadas.'
 ETL_NAME = 'ms_to_ladm_rhc'
 ETL_VERSION = '0.1'
